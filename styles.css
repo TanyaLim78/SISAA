@@ -8,8 +8,32 @@ h2{
   font-family: 'Varela', sans-serif;
 }
  /* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
+* {
+  box-sizing:
+  border-box
+}
 
+.message {
+ width: 200px;
+ height: 200px;
+}
+
+.donate{
+display: flex;
+justify-content: space-around;
+margin-bottom: 20px;
+}
+
+.donate2{
+  margin-top: 15px;
+}
+.donate3{
+  margin-top:40px;
+}
+.donatelogo{
+  color: gray;
+  text-align: center;
+}
 .mission {
   margin-top: 95px;
 }
@@ -24,6 +48,22 @@ h3{
 p{
   margin-left:8px;
   margin-right:8px;
+}
+.definitionsandinformation{
+ font-family: "varela",sans-serif;
+ font-size: 20px;
+ padding-left: 56px;
+ padding-right: 56px;
+}
+.definitions{
+ border-bottom: 15px solid #9370DB;
+}
+.info{
+ border-bottom: 15px solid #1E90FF;
+ border-top: 15px solid #9370DB;
+}
+.help{
+ border-bottom: 15px solid #1E90FF;
 }
 /*.support1{
   display: flex;
@@ -112,10 +152,90 @@ margin-top: 0;
 #topBtn:hover {
   background-color: #1E90FF; /* Add a dark-grey background on hover */
 }
+.singlepeople{
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: space-around;
+}
+ #alice{
+   width: 300px;
+   length: 300px;
+   font-family: 'varela',sans-serif;
+   color: #331c4a;
+   text-align: center;
+text-align: center;
+ }
+ #megan{
+   width: 300px;
+   length: 300px;
+   font-family: 'varela',sans-serif;
+   color: #174261;
+text-align: center;
+ }
+ #courtney{
+   width: 300px;
+   length: 300px;
+   font-family: 'varela',sans-serif;
+   color: #331c4a;
+text-align: center;
+ }
+ #tanya{
+   width: 300px;
+   length: 300px;
+   font-family: 'varela',sans-serif;
+   color: #174261;
+   text-align: center;
+ }
+#groupphoto{
+ opacity: 0.6;
+}
+.group{
+  display: flex;
+  align-content: center;
+  border: solid black;
+}
+.singlephotos{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+#aboutuswords {
+ align-self: center;
+ justify-content: center;
+ font-size: 100px;
+ font-family: 'varela',sans-serif;
+ color: white;
+ transform: translate(0%,-275%);
+}
+.alicesbio{
+ border: 4px double;
+ border-radius: 2%;
+ background-color: #d7b7f7;
+ border-color: #9370DB;
+}
+.megansbio{
+ border: 4px double;
+ border-radius: 2%;
+ background-color: #b7e2f7;
+ border-color: #1E90FF;
+}
+.courtneysbio{
+ border: 4px double;
+ border-radius: 2%;
+ background-color: #d7b7f7;
+ border-color: #9370DB;
+}
+.tanyasbio{
+ border: 4px double;
+ border-radius: 2%;
+ background-color: #b7e2f7;
+ border-color: #1E90FF;
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 800px;
+  max-width: 1000px;
+  max-height: 700px;
   position: relative;
   margin: auto;
   margin-top: 50px;
@@ -124,7 +244,7 @@ margin-top: 0;
 /* Hide the images by default */
 .mySlides {
   display: none;
-  width: 600px;
+  width: 700px;
   margin-left: auto;
   margin-right: auto;
 }

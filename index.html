@@ -8,7 +8,7 @@
   </head>
   <body>
   <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
-  <div class="taskbar">
+  <div class="taskbar" style="z-index: 2">
      <img class="logo" src="./assets/logo2.png" alt="SISAA">
      <a href="#about">About</a>
      <a href="#donate">Donate</a>
@@ -46,18 +46,18 @@
   </div>
   <div class="mySlides fade">
     <div class="numbertext"></div>
-    <img src="./assets/stat1.png" style="width:100%">
+    <img src="./assets/stat1(1).jpg" style="width:750px;height:400px;">
     <!-- <div class="text">Caption Text</div> -->
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext"></div>
-    <img src="./assets/stat2.png" style="width:100%">
+    <img src="./assets/stat2.png" style="width:750px;height:400px;">
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext"></div>
-    <img src="./assets/stat3.png" style="width:100%">
+    <img src="./assets/stat3.png" style="width:750px;height:200px;">
   </div>
 
   <!-- Next and previous buttons -->
@@ -75,56 +75,118 @@
   <span class="dot" onclick="currentSlide(5)"></span>
 
 </div>
-<div class:"definitionsandinformation">
- MOST IMPORTANT INFORMATION OF ALL TIME:<br>
-A victim of sexual assault/abuse is NEVER at fault of the victim no matter previous actions or relationships. No person asks to be sexually assaulted/abused, and choosing to hurt and violate others is a choice made by the perpetrators and in no way is caused by the victim themselves.
-  <br>
-  Definitions:<br>
-  Sexual Assault/Abuse: Sexual contact or behavior that is unwanted/without explicit consent of the victim including coerced or forced consent such as threats and intiminadation tactics <br>
-  Blitz sexual assault: when a perpetrator quickly and brutally assaults the victim with no prior contact<br>
-  Contact sexual assault: when a perpetrator contacts the victim and tries to gain their trust by flirting, luring the victim into a private situation, or otherwise attempting to coerce the victim into a situation where the sexual assault will occur
-  Home invasion sexual assault: when a stranger breaks into the victim's house and commits an act of sexual assault<br>
-  Rape: The FBI defines rape as “penetration, no matter how slight, of the vagina or anus with any body part or object, or oral penetration by a sex organ of another person, without the consent of the victim”<br>
-  Consent: Consent is a verbal affirmation from a victim that must be voluntary, sober, enthusiastic, informed, mutual, honest, and verbal agreement. This agreement cannot be coerced and a person who is intoxicated can NOT legally give consent. This agreement can be changed anytime no matter the relationship between people or if it was given before. Consent can NEVER be implied or assumed
-  <br>
-For more information about what to do if you are a victim of sexual assault or how to support victims of sexual assault, check out our support page and visit these sites:
-<br>
-https://www.rainn.org/after-sexual-assault<br>
-https://www.plannedparenthood.org/learn/teens/bullying-safety-privacy/sexual-assault-abuse-rape
+<div class="definitionsandinformation">
+     <div class="info"><p>A victim of sexual assault/abuse is NEVER at fault of the victim no matter previous actions or relationships. No person asks to be sexually assaulted/abused, and choosing to hurt and violate others is a choice made by the perpetrators and in no way is caused by the victim themselves.
+</div>
+   <br>
+   <div class="definitions">Definitions:<br>
+   <ul><li>Sexual Assault/Abuse: Sexual contact or behavior that is unwanted/without explicit consent of the victim including coerced or forced consent such as threats and intiminadation tactics </li><br>
+   <!-- <li>Blitz sexual assault: when a perpetrator quickly and brutally assaults the victim with no prior contact</li><br>
+   <li>Contact sexual assault: when a perpetrator contacts the victim and tries to gain their trust by flirting, luring the victim into a private situation, or otherwise attempting to coerce the victim into a situation where the sexual assault will occur</li>
+   <li>Home invasion sexual assault: when a stranger breaks into the victim's house and commits an act of sexual assault</li><br> -->
+   <li>Rape: The FBI defines rape as “penetration, no matter how slight, of the vagina or anus with any body part or object, or oral penetration by a sex organ of another person, without the consent of the victim”</li><br>
+   <li>Consent: Consent is a verbal affirmation from a victim that must be voluntary, sober, enthusiastic, informed, mutual, honest, and verbal agreement. This agreement cannot be coerced and a person who is intoxicated can NOT legally give consent. This agreement can be changed anytime no matter the relationship between people or if it was given before. Consent can NEVER be implied or assumed</li>
+</ul></div>
+<br><div class="help">
+   For more information about what to do if you are a victim of sexual assault or how to support victims of sexual assault, check out our support page and visit these sites:
+    <br><ul><li><a href='https://www.rainn.org/after-sexual-assault'>RAINN</a></li><br>
+   <li><a href='https://www.plannedparenthood.org/learn/teens/bullying-safety-privacy/sexual-assault-abuse-rape'>PlannedParenthood</a></li></ul></p>
+   </div>
+   <br>
+   <br>
 </div>
 </div>
-    <div class="quiz">
-      <h2> Quizzes </h2>
+    <div class="helpinghands">
+      <h2> Helping Hands </h2>
+
+      <audio id="Amazing">
+        <source src="./audio/Amazing.mp3" type="audio/mp3">
+       </audio>
+       <audio id="Gold">
+         <source src="./audio/Gold.mp3" type="audio/mp3">
+         </audio>
+         <audio id="Seen">
+           <source src="./audio/Seen.mp3" type="audio/mp3">
+        </audio>
+        <audio id="Capable">
+          <source src="./audio/Capable.mp3" type="audio/mp3">
+        </audio>
+        <audio id="Strong">
+          <source src="./audio/Strong.mp3" type="audio/mp3">
+        </audio>
+        <audio id="Trying">
+          <source src="./audio/Trying.mp3" type="audio/mp3">
+        </audio>
+
+        <section>
+          <button onclick="play1()" class="amazing" id="amazing" type="submit"><img class="message"> </button>
+          <button onclick="play2()" class="gold" id="gold" type="submit"><img class="message" src="./assets/IMG_1824.jpg"></button>
+          <button onclick="play3()" class="seen" id="seen" type="submit"><img class="message" src="./assets/IMG_1824.jpg"></button>
+          <button onclick="play4()" class="capable" id="capable" type="submit"><img class="message" src="./assets/IMG_1824.jpg"></button>
+          <button onclick="play5()" class="strong" id="strong" type="submit"><img class="message" src="./assets/IMG_1824.jpg"></button>
+          <button onclick="play6()" class="trying" id="trying" type="submit"><img class="message" src="./assets/IMG_1824.jpg"></button>
+        </section>
+
     </div>
     <div class="support">
       <h2> Support </h2>
       <section class = "support1">
-        <section ="source">
-          <h3 id="site"> National Sexual Assault Hotline</h3>
-          <p>Call: 1-800-656-4673</p> <p>Visit: https://hotline.rainn.org/online </p>
-         </section>
       <section ="source">
-          <h3 id="site"> The Rape Crisis Center</h3>
-          <p>Call: 210-349-7273</p> <p>Visit: http://rapecrisis.com/immediate-resources/</p>
-        </section>
-      <section ="source">
-          <h3 id="site"> National Domestic Violence Hotline </h3>
-          <p>Call: 1-800-799-SAFE (7233) or 1-800-787-3224</p> <p>Visit: https://www.thehotline.org/</p>
-        </section>
-      <section ="source">
-          <h3 id="site">Planned Parenthood </h3>
-          <p>Call: 1-800-230-7526</p> <p>Visit: https://www.plannedparenthood.org</p>
-        </section>
+        <h3 id="site"> National Sexual Assault Hotline</h3>
+        <p>Call: 1-800-656-4673</p> <p><a href='https://hotline.rainn.org/online'>Visit</a></p>
+       </section>
+    <section ="source">
+        <h3 id="site"> The Rape Crisis Center</h3>
+        <p>Call: 210-349-7273</p> <p><a href='http://rapecrisis.com/immediate-resources/'>Visit</a></p>
+      </section>
+    <section ="source">
+        <h3 id="site"> National Domestic Violence Hotline </h3>
+        <p>Call: 1-800-799-SAFE (7233) or 1-800-787-3224</p> <p> <a href='https://www.thehotline.org/'>Visit</a></p>
+      </section>
+    <section ="source">
+        <h3 id="site">Planned Parenthood </h3>
+        <p>Call: 1-800-230-7526</p> <p><a href='https://www.plannedparenthood.org'>Visit</a></p>
+      </section>
+</section>
 </section>
 </div>
+     <h2> Donate Today! </h2>
+     <p class= "donatelogo"> ~ click on the logos to donate ~ </p>
     <div class="donate">
-      <h2> Donate Today! </h2>
+      <a  class=" donate2" href="https://www.thehotline.org/donate/">
+        <img src="./assets/donate2.png" style="width:400px;border:0;">
+        </a>
+      <a class=" donate1" href="https://give.joyfulheartfoundation.org/give/174453/#!/donation/checkout">
+  <img src="./assets/donate1.png" style="width:400px;border:0;">
+</a>
+      <a  class=" donate3" href="https://www.weareplannedparenthood.org/onlineactions/2U7UN1iNhESWUfDs4gDPNg2?sourceid=1000063&_ga=2.188750827.1132866550.1564683223-1036440492.1564683223">
+  <img src="./assets/donate3.png" style="width:400px;border:0;">
+  </a>
     </div>
-    <div class="stories">
-      <h2> Stories </h2>
-    </div>
-    <div class="about us">
-      <h2> About Us</h2>
+      <div class="aboutus">
+           <img class="group" id="groupphoto"src="./assets/group.jpg" alt="group" style="width:100%">
+         </div>
+         <div id="aboutuswords" class="group"style="text">About Us</div>
+         <div class="singlepeople">
+         <section class="alicesbio">
+           <img class="singlephotos"id="alice"src="./assets/alice.jpg" alt="alice">
+           <p id="alice">Alice is a junior in highschool, and dreams of becoming an aerospace engineer. In her freetime she likes to participate in theatre productions, ski, and code. She enjoys cheese (but only if it's stringed), peach tea, and Finding Nemo. Her favorite animal is a giraffe, as she is also very tall. She strongly believes that dreams will change the world, and is excited to see what those dreams will be.
+</p>
+           </section>
+           <section class="megansbio">
+           <img class="singlephotos"id="megan"src="./assets/megan.jpg" alt="megan">
+           <p id="megan">Megan is a strong-willed young woman who hopes to become a businesswoman one day. In her free time she loves to read rom-coms, sew, and spend time with her friends. She also loves the mysteriousness and enthralling nature of the Ocean's film series.</p>
+           </section>
+           <section class="courtneysbio">
+           <img class="singlephotos"id="courtney"src="./assets/courtney.jpg" alt="court">
+           <p id="courtney">Courtney is bright young student who hopes to become an engineer with a computer science minor. She loves a good book and spending time with others. Her favorite animal is a shark because she loves shark week and is an avid fan of the Sharknado movie enterprise. She hopes to one day change the world and believes this website is great step to inform and benefit others.</p>
+           </section>
+           <section class="tanyasbio">
+           <img class="singlephotos" id="tanya"src="./assets/tanya.jpg" alt="tanya">
+           <p id="tanya"> Nathania is a friend, coder and leader who strives to one day create a positive impact on the world with her coding skills and positivity. In her free time, she loves to create art, read novels, and binge Netflix. She prides herself on her love for trying new things and taking chances, especially on food. She adores anything cute and cuddly, and believes SISAA is one of the many steps in her journey towards making an impact with code.</p>
+           </section>
+           </div>
+       </div>
     </div>
     </div>
 

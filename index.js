@@ -44,3 +44,28 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+var amazing = document.getElementById("Amazing");
+var gold = document.getElementById("Gold");
+var seen = document.getElementById("Seen");
+var capable = document.getElementById("Capable");
+var strong = document.getElementById("Strong");
+var trying = document.getElementById("Trying");
+
+function play1() {
+ amazing.play();
+}
+function play2() {
+  gold.play();
+ }
+function play3() {
+ seen.play();
+}
+function play4() {
+   capable.play();
+}
+function play5() {
+   strong.play();
+}
+function play6() {
+   trying.play();
+}
