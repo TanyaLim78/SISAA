@@ -3,6 +3,11 @@
 }*/
 h2{
   text-align: center;
+  font-size: 50px;
+  background-color: #9370DB;
+  text-shadow: 2px 2px #1E90FF;
+  background: rgba(147, 112, 219, 0.5);
+  padding: 13px;
 }
 *{
   font-family: 'Varela', sans-serif;
@@ -12,10 +17,31 @@ h2{
   box-sizing:
   border-box
 }
-
+#aboutuswords{
+  text-shadow: 5px 5px #1E90FF;
+}
+.inspo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .message {
- width: 200px;
- height: 200px;
+ width: 350px;
+ height: 350px;
+ border-radius: 50%;
+ margin-bottom: 20px;
+ padding: 0px;
+border: 10px double #9370DB;
+}
+
+#butt{
+  margin:30px;
+  padding: 0px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+
 }
 
 .donate{
@@ -37,9 +63,7 @@ margin-bottom: 20px;
 .mission {
   margin-top: 95px;
 }
-p{
-  margin: 0px;
-}
+
 h3{
   margin-bottom: 15px;
   margin-left: 8px;
@@ -55,7 +79,7 @@ p{
  padding-left: 56px;
  padding-right: 56px;
 }
-.definitions{
+/* .definitions{
  border-bottom: 15px solid #9370DB;
 }
 .info{
@@ -63,13 +87,9 @@ p{
  border-top: 15px solid #9370DB;
 }
 .help{
- border-bottom: 15px solid #1E90FF;
+ border-bottom: 15px solid #1E90FF; */
 }
-/*.support1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}*/
+
 .support1{
   text-align: center;
 }
@@ -82,16 +102,21 @@ p{
   top: 0;
   width: 100%;
   font-size: 24px;
+  max-height: 75px;
 }
-.taskbar a {
+.taskbar button {
   float: right;
-  display: block;
-  color: #f2f2f2;
+  display: flex;
+  background-color: #333;
   text-align: center;
   padding: 16px 16px;
   text-decoration: none;
+  color: white;
+  border: #333;
+  font-size: 20px;
 }
-.taskbar a:hover {
+
+.taskbar button:hover {
   background: #ddd;
   color: black;
 }
@@ -112,10 +137,10 @@ margin-top: 0;
 
 .background {
   width: 400px;
-  margin-top: 170px;
-  margin-left: 437px;
+  margin-top: 160px;
+  margin-left: 500px;
   opacity: 0.5;
-  margin-bottom: 63px;
+  margin-bottom: 85px;
 }
 .statement {
   text-align: center;
@@ -124,10 +149,11 @@ margin-top: 0;
   width: 100%
   transform: translate(-50%, -100%);
   font-size: 45px;
-  margin-top: 213px;
+  margin-top: 235px;
   margin-left: 170px;
   margin-right: 170px;
-  height: 550px;
+  height: 500px;
+   text-shadow: 2px 2px #1E90FF;
 }
 .mS {
   position: relative;
@@ -192,7 +218,6 @@ text-align: center;
 .group{
   display: flex;
   align-content: center;
-  border: solid black;
 }
 .singlephotos{
   margin-left: 10px;
@@ -211,13 +236,13 @@ text-align: center;
  border: 4px double;
  border-radius: 2%;
  background-color: #d7b7f7;
- border-color: #9370DB;
+ border-color: 	#DCDCDC;
 }
 .megansbio{
  border: 4px double;
  border-radius: 2%;
  background-color: #b7e2f7;
- border-color: #1E90FF;
+ border-color: 	#C0C0C0;
 }
 .courtneysbio{
  border: 4px double;

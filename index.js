@@ -69,3 +69,28 @@ function play5() {
 function play6() {
    trying.play();
 }
+$("#about").click(function() {
+  $("html,body").animate({
+    scrollTop: $(".aboutus").offset().top},
+    "slow");
+});
+$("#donate").click(function() {
+  $("html,body").animate({
+    scrollTop: $(".donateToday").offset().top},
+    "slow");
+});
+$("#support").click(function() {
+  $("html,body").animate({
+    scrollTop: $(".support").offset().top},
+    "slow");
+});
+$("#helping").click(function() {
+  $("html,body").animate({
+    scrollTop: $(".helpinghands").offset().top},
+    "slow");
+});
+$("#information").click(function() {
+  $("html,body").animate({
+    scrollTop: $(".info").offset().top},
+    "slow");
+});
