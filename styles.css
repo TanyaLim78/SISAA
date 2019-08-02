@@ -79,15 +79,16 @@ p{
  padding-left: 56px;
  padding-right: 56px;
 }
-/* .definitions{
- border-bottom: 15px solid #9370DB;
+.definitions{
+ border-bottom: 2px solid #9370DB;
 }
-.info{
- border-bottom: 15px solid #1E90FF;
- border-top: 15px solid #9370DB;
+.infa{
+ border-bottom: 2px solid #1E90FF;
+ border-top: 2px solid #9370DB;
 }
 .help{
- border-bottom: 15px solid #1E90FF; */
+ border-bottom: 2px solid #1E90FF;
+ padding-bottom: 20px;
 }
 
 .support1{
@@ -236,13 +237,13 @@ text-align: center;
  border: 4px double;
  border-radius: 2%;
  background-color: #d7b7f7;
- border-color: 	#DCDCDC;
+ border-color: 	#9370DB;
 }
 .megansbio{
  border: 4px double;
  border-radius: 2%;
  background-color: #b7e2f7;
- border-color: 	#C0C0C0;
+ border-color: 	#1E90FF;
 }
 .courtneysbio{
  border: 4px double;
